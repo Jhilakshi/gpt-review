@@ -31,9 +31,9 @@
          with:
            python-version: 3.11
 
-       - uses: Azure/login@v1.4.6
-         with:
-           creds: ${{ secrets.AZURE_CREDENTIALS }}
+#       - uses: Azure/login@v1.4.6
+#         with:
+#           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
        - run: |
            sudo apt-get update
